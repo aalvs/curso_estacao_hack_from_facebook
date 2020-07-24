@@ -1,5 +1,5 @@
 /*
-Exercício: Condicional - Votação
+Exercício: Condicional - Operadores Relacionais
 
 No sistema político atual, temos algumas regras para participar das eleições. 
 A principal delas, é que o voto é obrigatório a partir dos 18 anos, e opcional quando idade for igual a 16! 
