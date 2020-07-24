@@ -1,19 +1,27 @@
 /*
-Exercício: Break e Continue - Baralho
+Exercício: Declarando funções - Listar produtos
 
-Temos um array em uma variável chamada baralho e precisamos de um script que procure a carta “Rei” entre as cartas do baralho. 
-Assim que encontrar o “Rei” pare o loop utilizando break  e exiba um console.log a seguinte frase: Encontrei o Rei!
+Um mercado tem uma lista de produtos, que eles querem exibir para todo novo cliente que chegar! 
+Como o processo é um pouco trabalhoso e repetitivo eles precisam do seu conhecimento em funções para ajudá-los.
+Eles já tem um código, porém toda vez eles precisam reescrever o código para exibir ao cliente:
+
+var lista = [ 'Leite', 'tomate', 'Biscoito', 'Tapioca']
+for(var i = 0; i < lista.length; i++){
+	console.log(lista[i])
+}
+
+Seu trabalho é melhorar esse código, para ficar mais simples utilizá-lo. 
+Precisamos que você transforme o código acima em uma função chamada listarProdutos.
 */
 
-var baralho = ["Ás", "Dama", "Rei", "Valete"]
+function listarProdutos( ) {
+
+  var lista = [ 'Leite', 'tomate', 'Biscoito', 'Tapioca']
   
-for(var i = 0; i < baralho.length; i++) {
+	for(var i = 0; i < lista.length; i++){
 
-  if(baralho[i] == "Rei") {
-
-    console.log("Encontrei o Rei!")
-
-    break
-  
+    console.log(lista[i])
+    
   }
+  
 }
